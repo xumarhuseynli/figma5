@@ -1,0 +1,444 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 200px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.headericon{
+    width: 40px;
+    height: 40px;
+    
+    
+
+}
+.headerbutton{
+ width: 175px;
+ height: 68px;
+ color: #162542;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+text-transform: uppercase;
+margin-right: 120px;
+border-radius: 8px;
+color: #162542;
+background: #E8EFF2;
+text-align: center;
+padding-top: 20px;
+ 
+}
+.main{
+    width: 100%;
+    height: 700px;
+    margin: 100px;
+    display: flex;
+
+}
+.mainbox1{
+    width: 445px;
+    height: 312px;
+    margin-right: 190px;
+
+
+}
+.mainbox2{
+    display: flex;
+}
+.mainbox1h3{
+    width: 445px;
+    height: 112px;
+    color: #162542;
+font-family: Barlow;
+font-size: 56px;
+font-style: normal;
+font-weight: 900;
+text-transform: uppercase;
+margin-bottom: 50px;
+
+}
+.mainbox1p{
+    width: 445px;
+    height: 78px;
+    color: #7B8BAD;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+
+
+}
+.mainbox1button{
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    background: #F16718;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.mainbox1buttonp2{
+    display: flex;
+}
+.mainbox1button button{
+    background-color: #F16718;
+    border: 2px solid #F16718;
+    color: #fff;
+    color: #FFF;
+font-family: Barlow;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.mainbox1p2{
+        width: 127px;
+        height: 26px;
+    color: #7B8BAD;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+text-transform: uppercase;
+margin-left: 40px;
+
+}
+.mainbox2img2{
+    width: 255px;
+    height: 240px;
+}
+/* container */
+.container{
+    width: 100%;
+    height: 600px;
+    margin: 80px;
+    display: flex;
+}
+.containerbox1{
+    width: 354px;
+    height: 554px;
+    border-radius: 15px;
+    margin-right: 250px;
+
+}
+.containerbox1 img{
+    opacity: 0.7486;
+background: url(../image/Bitmap.png), #F16718 0px 0px / 100% 100% no-repeat;
+mix-blend-mode: multiply;
+    border-radius: 20px;
+opacity: 0.7486;
+mix-blend-mode: multiply;
+border-radius: 18px;
+}
+.containerbox2{
+    margin-right: 40px;
+
+}
+.containerbox2 img{
+    border-radius: 18px;
+}
+.containerbox3{
+    width: 255px;
+    height: 265px;
+
+}
+.cbox3h3{
+    width: 255px;
+    height: 108px;
+    color: #162542;
+font-family: Barlow;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+text-transform: uppercase;
+margin-bottom: 27px;
+}
+.cbox3p{
+    width: 255px;
+    height: 130px;
+    color: #7B8BAD;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fbox1{
+    width: 255px;
+    height: 255px;
+    margin-right: 10px;
+    display: flex;
+flex-wrap: wrap;    
+
+
+}
+
+
+.fbox1icon{
+width: 65px;
+height: 65px;
+margin-bottom: 30px
+
+}
+.fbox1h3{
+width: 255px;
+height: 56px;
+color: #162542;
+font-family: Barlow;
+font-size: 24px;
+font-weight: 900;
+text-transform: uppercase;
+margin-bottom: 30px
+
+
+}
+.fbox1p{
+    width: 255px;
+    height: 130px;
+    color: #7B8BAD;
+font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+}
+.foot{
+    width: 272px;
+    height: 26px;
+    color: #7B8BAD;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+margin: 0 auto;
+margin-bottom: 40px;
+
+}
+
+@media only screen and (min-width:768px) {
+body{
+    width: 768px;
+    height: 2128px;
+}
+header{
+    width: 768px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.headericon{
+width: 40px;
+height: 40px;
+
+}
+.headerbutton{
+    width: 175px;
+    height: 58px;
+    margin-right: -395px;
+
+}
+.main{
+    width: 768px;
+    margin-left: 25px;
+
+}
+.mainbox1{
+    width: 339px;
+    height: 312px;
+    margin-left: 200px;
+
+}
+.mainbox2{
+    width: 339px;
+    height: 312px;
+
+
+}
+.mainbox1h3{
+    width: 339px;
+
+}
+.mainbox1p{
+    width: 339px;
+    margin-bottom: 50px;
+
+}
+.mainbox1button{
+  width: 150px;
+  margin-right: 3px;
+
+}
+.mainbox1buttonp2{
+width: 150px;
+}
+.mainbox1button button{
+    width: 150px;
+}
+.mainbox1p2{
+
+}
+.mainbox2img2{
+ width: 100px
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.containerbox3{
+    width: 768px;
+    display: flex;
+    gap: 60px;
+    justify-content: space-evenly;
+    
+
+
+}
+.cbox3h3{
+    width: 400px;
+
+}
+.cbox3p{
+    width: 260px;
+
+}
+.cbox12{
+    display: flex;
+}
+    footer{
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:375px) {
+    body{
+        width: 375px;
+        height: 2128px;
+    }
+    header{
+        width:375px;
+        display: flex;
+    
+    }
+    .headericon{
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+    
+    }
+    .headerbutton{
+        width: 175px;
+        height: 58px;
+    }
+    .main{
+        width: 375px;
+        margin-left: 25px;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .mainbox1{
+        width: 327px;
+        height: 312px;
+        margin-left: 200px;
+    
+    }
+    .mainbox2{
+        width: 327px;
+        height: 312px;
+    
+    
+    }
+    .mainbox1h3{
+        width: 327px;
+    
+    }
+    .mainbox1p{
+        width: 327px;
+        margin-bottom: 50px;
+    
+    }
+    .mainbox1button{
+      width: 122px;
+      margin-right: 3px;
+    
+    }
+    .mainbox1buttonp2{
+    width: 127px;
+    }
+    .mainbox1button button{
+        width: 150px;
+    }
+    .mainbox1p2{
+    
+    }
+    .mainbox2img2{
+     width: 100px;
+     margin-bottom: 12rem;
+     
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom:4rem;
+    }
+    .containerbox3{
+        width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    
+    
+    }
+    .cbox3h3{
+        width: 255px;
+    
+    }
+    .cbox3p{
+        width: 327px;
+        margin-bottom: 200px;
+    
+    }
+    .cbox12{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+        footer{
+            margin-top: 100px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
